@@ -160,8 +160,8 @@
 
     /* Organizers */
     .orgs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 34px 22px; }
-    .org { text-align: left; }
-    .avatar { width: 100%; aspect-ratio: 1 / 1; border-radius: 50%; position: relative; overflow: hidden; background: var(--green-100); max-width: 170px; outline: 3px solid var(--orange-500); outline-offset: 5px; }
+    .org { text-align: center; }
+    .avatar { width: 100%; aspect-ratio: 1 / 1; border-radius: 50%; position: relative; overflow: hidden; background: var(--green-100); max-width: 170px; margin: 0 auto; outline: 3px solid var(--orange-500); outline-offset: 5px; }
     .org:nth-child(even) .avatar { outline-color: var(--green-500); }
     .avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .avatar .ini { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: "DM Serif Display", Georgia, serif; font-size: 2.6rem; color: var(--green-700); }
@@ -378,7 +378,7 @@
     <div class="wrap">
       <div class="sec-head"><div class="num">08 · Team</div><h2 class="serif">Organizers</h2></div>
       <div class="orgs">
-        <div class="org"><div class="avatar"><img src="https://hyunw.kim/images/me.jpg" alt="Hyunwoo Kim" style="object-position:50% 25%" onerror="this.parentNode.classList.add('noimg');this.remove()"><span class="ini">HK</span></div><div class="name"><a href="https://hyunw.kim">Hyunwoo Kim</a></div><div class="aff">KAIST AI</div><span class="tag">Theory of mind</span></div>
+        <div class="org"><div class="avatar"><img src="https://hyunw.kim/images/me.jpg" alt="Hyunwoo Kim" style="object-position:50% 25%" onerror="this.parentNode.classList.add('noimg');this.remove()"><span class="ini">HK</span></div><div class="name"><a href="https://hyunw.kim">Hyunwoo Kim</a></div><div class="aff">KAIST · NVIDIA</div><span class="tag">Social Reasoning & Simulation</span></div>
         <div class="org"><div class="avatar"><img src="https://liweijiang.github.io/static/avatar.png" alt="Liwei Jiang" onerror="this.parentNode.classList.add('noimg');this.remove()"><span class="ini">LJ</span></div><div class="name"><a href="https://liweijiang.github.io">Liwei Jiang</a></div><div class="aff">NVIDIA</div><span class="tag">Human behavior simulation</span></div>
         <div class="org"><div class="avatar"><img src="https://l-mathur.github.io/data/Mathur_Leena.jpg" alt="Leena Mathur" onerror="this.parentNode.classList.add('noimg');this.remove()"><span class="ini">LM</span></div><div class="name"><a href="https://l-mathur.github.io">Leena Mathur</a></div><div class="aff">Carnegie Mellon University</div><span class="tag">Multimodal social intelligence</span></div>
         <div class="org"><div class="avatar"><img src="https://xuhuiz.com/profile.jpg" alt="Xuhui Zhou" onerror="this.parentNode.classList.add('noimg');this.remove()"><span class="ini">XZ</span></div><div class="name"><a href="https://xuhuiz.com">Xuhui Zhou</a></div><div class="aff">Meta</div><span class="tag">Interactive agents</span></div>
